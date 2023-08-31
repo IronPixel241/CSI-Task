@@ -1,0 +1,268 @@
+* {
+    /* background-color: #481cb4; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
+}
+
+/* ----------------------- Page-1 ----------------------- */
+.page-1 {
+    background-color: #481cb4;
+}
+
+/* ----------------------- Nav-Bar ----------------------- */
+.nav-bar {
+    background-color: #481cb4;
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+header div img {
+    height: 3rem;
+    margin-left: 5rem;
+
+}
+
+.links {
+    margin-right: 5rem;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    width: 35rem;
+    justify-content: space-between;
+}
+
+.links a {
+    color: rgb(238, 213, 213);
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: rgb(132, 142, 233);
+}
+
+/* ----------------------- Main-content ----------------------- */
+.main-content {
+    /* border: 2px solid black; */
+    padding-top: 7rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    color: rgb(238, 213, 213);
+    font-size: 1.6rem;
+    width: 30rem;
+    margin-left: 6rem;
+    margin-top: 6rem;
+}
+
+.left p {
+    font-size: 0.8rem;
+}
+
+.right {
+    /* align-items: flex-end; */
+    justify-content: end;
+    /* border: 2px solid black; */
+    /* height: auto; */
+}
+
+.right img {
+    margin-top: 2rem;
+    width: 400px;
+    align-self: center;
+    height: 35rem;
+}
+
+/* ----------------------- Page-2 ----------------------- */
+.page-2 {
+    /* display: flex; */
+    background-color: #F8F5FF;
+    z-index: 1;
+}
+
+.page-2 .heading h1 { 
+    display: flex;
+    /* border: 2px solid black; */
+    background-color: #F8F5FF;
+    justify-content: center;
+    height: 15rem;
+    align-items: center;
+    font-weight: 800;
+}
+
+.features {
+    display: flex;
+    background-color: #F8F5FF;
+    /* width: 100vh; */
+    justify-content: space-around;
+}
+
+.left-feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28%;
+    text-align: right;
+}
+
+.right-feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28%;
+    text-align: left;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons img {
+    width: 3rem;
+    height: 3rem;
+    align-self: center;
+    margin-left: 2rem;
+}
+
+.icons-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons-2 img {
+    width: 3rem;
+    height: 3rem;
+    align-self: center;
+    margin-right: 2rem;
+}
+
+.blank {
+    width: 100%;
+    height: 8rem;
+    background-color: #F8F5FF;
+}
+
+/* ----------------------- Page-3 ----------------------- */
+.page-3 {
+    /* background-color: blue; */
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews h1 {
+    font-weight: 700;
+    height: 8rem;
+}
+
+.profiles {
+    /* width: 80%; */
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.profiles .profile-1 .para-1 {
+    display: flex;
+    width: 20rem;
+    justify-content: center;
+    font-weight: bold ;
+    padding-left: 9px;
+    /* margin-left: 6rem; */
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+}
+
+.profiles .profile-1 .para-2 {
+    width: 20rem;
+}
+
+.profiles .profile-1 img {
+    /* margin-left: 6rem; */
+}
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+}
+
+.space {
+    height: 10rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    background-color: #481cb4;
+}
+
+.ready {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1 {
+    color: white;
+}
+
+#last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 522.66px;
+}
+
+.space-2 {
+    height: 3rem;
+}
+
+.mail {
+    display: flex;
+}
+
+.mail p {
+    color: white;
+}
+
+.mail img {
+    margin-right: 5px;
+}
+
+.phone {
+    display: flex;
+}
+
+.phone p {
+    color: white;
+}
+
+.phone img {
+    margin-right: 5px;
+}
+
+.sp {
+    height: 5px;
+}
